@@ -39,3 +39,31 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ──────────────────────────────────────────
+# Java / Maven (backend)
+# ──────────────────────────────────────────
+
+# Maven build output
+backend/target/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.factorypath
+
+# Spring Boot sensitive config – keep credentials out of VCS
+backend/src/main/resources/application.yml
